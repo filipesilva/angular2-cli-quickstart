@@ -14,9 +14,11 @@ describe('App: Angular2CliQuickstart', () => {
       inject([Angular2CliQuickstartAppComponent], (app: Angular2CliQuickstartAppComponent) => {
     expect(app).toBeTruthy();
   }));
-
-  it('should have as title \'angular2-cli-quickstart works!\'',
+  
+  // #docregion title
+  it('should have as title \'My First Angular 2 App\'',
       inject([Angular2CliQuickstartAppComponent], (app: Angular2CliQuickstartAppComponent) => {
-    expect(app.title).toEqual('angular2-cli-quickstart works!');
+    expect(app.title).toEqual('My First Angular 2 App');
   }));
+  // #enddocregion title
 });

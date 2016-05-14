@@ -7,8 +7,10 @@ describe('angular2-cli-quickstart App', function() {
     page = new Angular2CliQuickstartPage();
   })
 
+  // #docregion title
   it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('angular2-cli-quickstart works!');
+    expect(page.getParagraphText()).toEqual('My First Angular 2 App');
   });
+  // #enddocregion title
 });

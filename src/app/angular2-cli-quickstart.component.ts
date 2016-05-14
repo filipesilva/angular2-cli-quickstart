@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: 'angular2-cli-quickstart.component.html',
   styleUrls: ['angular2-cli-quickstart.component.css']
 })
+// #docregion title
 export class Angular2CliQuickstartAppComponent {
-  title = 'angular2-cli-quickstart works!';
+  title = 'My First Angular 2 App';
 }
+// #enddocregion title
